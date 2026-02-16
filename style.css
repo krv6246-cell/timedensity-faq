@@ -126,4 +126,24 @@ h1 {
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
+}/* Мобильная версия — увеличение шрифта */
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  #levelList button,
+  #questionList button {
+    font-size: 18px;
+    padding: 14px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .answer-box {
+    font-size: 18px;
+  }
 }
