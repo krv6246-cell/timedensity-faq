@@ -137,13 +137,13 @@ h1 {
   /* Сетка уровней — 3 колонки */
   #levelList {
     grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+    gap: 10px;
   }
-
+/* Компактные кнопки */
   #levelList button,
   #questionList button {
-    font-size: 18px;
-    padding: 14px;
+    font-size: 16px;   /* было 18px */
+    padding: 10px;     /* было 14px */
   }
 
   .section-title {
@@ -154,3 +154,6 @@ h1 {
     font-size: 18px;
   }
 }
+
+
+  
