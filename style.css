@@ -128,9 +128,16 @@ h1 {
     font-weight: 600;
 }/* Мобильная версия — увеличение шрифта */
 @media (max-width: 600px) {
+
   body {
     font-size: 18px;
     line-height: 1.6;
+  }
+
+  /* Сетка уровней — 3 колонки */
+  #levelList {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
   }
 
   #levelList button,
